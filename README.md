@@ -17,8 +17,8 @@ Utiliza PyInstaller para compilar el programa. Ejecuta el siguiente comando en t
 pyinstaller modificador_main.p
 ```
 # Capturas de pantalla
-![ModoClaro](https://github.com/b9adec10-3586-401c-be1b-b2f01192569a)
-![Modo Oscuro](https://github.com/b0073f7a-a80d-461a-be79-4d5cac8d3983)
+![ModoClaro](https://github.com/TheMrAleX/econnect-gui/blob/main/screenshots/1.png?raw=true)
+![Modo Oscuro](https://github.com/TheMrAleX/econnect-gui/blob/main/screenshots/2.png?raw=true)
 # Características
 
 - **Fácil uso:** La interfaz minimalista garantiza una experiencia intuitiva para todos los usuarios.<br>
