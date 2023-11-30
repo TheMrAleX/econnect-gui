@@ -1,7 +1,7 @@
 # EConnect-Gui
 
-![](https://github.com/TheMrAleX/econnect-gui/blob/main/econnect.png?raw=true)EConnect-Gui es una aplicación escrita completamente en Python que facilita la tarea de iniciar sesión en la red Nauta de Etecsa. La interfaz minimalista del programa está diseñada para todos los usuarios, ofreciendo un proceso sencillo y eficiente.
-
+EConnect-Gui es una aplicación escrita completamente en Python que facilita la tarea de iniciar sesión en la red Nauta de Etecsa. La interfaz minimalista del programa está diseñada para todos los usuarios, ofreciendo un proceso sencillo y eficiente.
+![](https://github.com/TheMrAleX/econnect-gui/blob/main/econnect.png?raw=true)
 ## Compilación
 
 Para compilar EConnect-Gui, asegúrate de tener instaladas las siguientes dependencias:
