@@ -35,5 +35,5 @@ python modificador_main.py # para ejecutar en Windows
 
 # Información
 
-Tanto EConnect-Gui como [econnect-module](https://github.com/TheMrAleX/econnect) fue desarrollado por mi, TheMrAleX para mejorar la experiencia de usuario al conectarse a la red nauta, lo hago Open Source para las personas que esten interesadas en lanzar aplicaciones o proyectos similares o simplemente contribuir a este. Agradzco su contribución a estos proyectos.<br>
+Tanto EConnect-Gui como [econnect-module](https://github.com/TheMrAleX/econnect) fue desarrollado por mi, TheMrAleX para mejorar la experiencia de usuario al conectarse a la red nauta, lo hago Open Source para las personas que esten interesadas en lanzar aplicaciones o proyectos similares o simplemente contribuir a este. Agradzco su contribución a estos proyectos.<br><br><br>
 Los iconos usados en el programa son [tabler-icons](https://github.com/tabler/tabler-icons)
