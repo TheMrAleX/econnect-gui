@@ -10,6 +10,12 @@ Para compilar EConnect-Gui, asegúrate de tener instaladas las siguientes depend
 - pyqt5
 - econnect
 
+Las puedes instalar con pip:
+```
+pip install PyQt5
+pip install econnect
+```
+
 Utiliza PyInstaller para compilar el programa. Ejecuta el siguiente comando en tu terminal:
 
 ```bash
