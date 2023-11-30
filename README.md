@@ -19,9 +19,10 @@ pip install econnect
 Utiliza PyInstaller para compilar el programa o ejecutalo sin compilar. Ejecuta el siguiente comando en tu terminal:
 
 ```bash
-pyinstaller modificador_main.py
-python3 modificador_main.py (en linux y mac)
-python modificador_main.py (en Windows)
+pyinstaller modificador_main.py # para compilar
+-------------------------------------------------
+python3 modificador_main.py # paraejecutar en linux y mac
+python modificador_main.py # para ejecutar en Windows
 ```
 # Capturas de pantalla
 ![ModoClaro](https://github.com/TheMrAleX/econnect-gui/blob/main/screenshots/1.png?raw=true)
