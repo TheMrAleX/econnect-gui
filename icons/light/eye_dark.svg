@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="icon icon-tabler icon-tabler-eye"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   stroke-width="2"
+   stroke="currentColor"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="eye_dark.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="22.125"
+     inkscape:cx="11.977401"
+     inkscape:cy="12"
+     inkscape:window-width="1366"
+     inkscape:window-height="709"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <path
+     stroke="none"
+     d="M0 0h24v24H0z"
+     fill="none"
+     id="path2" />
+  <path
+     d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"
+     id="path4"
+     style="stroke:#000955;stroke-opacity:1" />
+  <path
+     d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6"
+     id="path6"
+     style="stroke:#000955;stroke-opacity:1;fill:none;fill-opacity:1" />
+</svg>
