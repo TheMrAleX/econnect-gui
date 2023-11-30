@@ -16,10 +16,12 @@ pip install PyQt5
 pip install econnect
 ```
 
-Utiliza PyInstaller para compilar el programa. Ejecuta el siguiente comando en tu terminal:
+Utiliza PyInstaller para compilar el programa o ejecutalo sin compilar. Ejecuta el siguiente comando en tu terminal:
 
 ```bash
 pyinstaller modificador_main.py
+python3 modificador_main.py (en linux y mac)
+python modificador_main.py (en Windows)
 ```
 # Capturas de pantalla
 ![ModoClaro](https://github.com/TheMrAleX/econnect-gui/blob/main/screenshots/1.png?raw=true)
