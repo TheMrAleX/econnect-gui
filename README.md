@@ -20,8 +20,8 @@ Utiliza PyInstaller para compilar el programa o ejecutalo sin compilar. Ejecuta 
 
 ```bash
 pyinstaller modificador_main.py # para compilar
--------------------------------------------------
-python3 modificador_main.py # paraejecutar en linux y mac
+----------------------------------------------------------
+python3 modificador_main.py # para ejecutar en linux y mac
 python modificador_main.py # para ejecutar en Windows
 ```
 # Capturas de pantalla
