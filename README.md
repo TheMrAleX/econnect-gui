@@ -7,14 +7,13 @@ EConnect-Gui es una aplicación escrita completamente en Python que facilita la 
 Para compilar EConnect-Gui, asegúrate de tener instaladas las siguientes dependencias:
 
 - Python 3.12
-- httpx
-- beautifulsoup4
 - pyqt5
+- econnect
 
 Utiliza PyInstaller para compilar el programa. Ejecuta el siguiente comando en tu terminal:
 
 ```bash
-pyinstaller modificador_main.p
+pyinstaller modificador_main.py
 ```
 # Capturas de pantalla
 ![ModoClaro](https://github.com/TheMrAleX/econnect-gui/blob/main/screenshots/1.png?raw=true)
