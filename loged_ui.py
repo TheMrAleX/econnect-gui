@@ -9,11 +9,11 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+from ayuda import resource_path
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
+        MainWindow.setObjectName("Loged")
         MainWindow.resize(320, 462)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -52,7 +52,7 @@ class Ui_MainWindow(object):
         self.boton_minimizar.setMaximumSize(QtCore.QSize(40, 16777215))
         self.boton_minimizar.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/iconos/icons/light/arrows-diagonal-minimize.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(resource_path("res/icons/light/arrows-diagonal-minimize.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.boton_minimizar.setIcon(icon)
         self.boton_minimizar.setIconSize(QtCore.QSize(20, 20))
         self.boton_minimizar.setObjectName("boton_minimizar")
@@ -61,7 +61,7 @@ class Ui_MainWindow(object):
         self.boton_cerrar.setMaximumSize(QtCore.QSize(40, 16777215))
         self.boton_cerrar.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap(":/iconos/icons/light/x.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap(resource_path("res/icons/light/x.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.boton_cerrar.setIcon(icon1)
         self.boton_cerrar.setIconSize(QtCore.QSize(20, 20))
         self.boton_cerrar.setObjectName("boton_cerrar")
@@ -92,7 +92,7 @@ class Ui_MainWindow(object):
         self.label_wifi.setMinimumSize(QtCore.QSize(35, 35))
         self.label_wifi.setMaximumSize(QtCore.QSize(35, 35))
         self.label_wifi.setText("")
-        self.label_wifi.setPixmap(QtGui.QPixmap(":/iconos/icons/light/wifi.svg"))
+        self.label_wifi.setPixmap(QtGui.QPixmap(resource_path("res/icons/light/wifi.svg")))
         self.label_wifi.setObjectName("label_wifi")
         self.horizontalLayout.addWidget(self.label_wifi)
         self.label = QtWidgets.QLabel(self.header_c)
@@ -132,7 +132,7 @@ class Ui_MainWindow(object):
         self.label_tc.setMinimumSize(QtCore.QSize(35, 35))
         self.label_tc.setMaximumSize(QtCore.QSize(35, 35))
         self.label_tc.setText("")
-        self.label_tc.setPixmap(QtGui.QPixmap(":/iconos/icons/light/clock-play.svg"))
+        self.label_tc.setPixmap(QtGui.QPixmap(resource_path("res/icons/light/clock-play.svg")))
         self.label_tc.setObjectName("label_tc")
         self.horizontalLayout_3.addWidget(self.label_tc)
         self.tiempo_consumido = QtWidgets.QLabel(self.tiempo_consumido_frame)
@@ -169,7 +169,7 @@ class Ui_MainWindow(object):
         self.label_td.setMinimumSize(QtCore.QSize(35, 35))
         self.label_td.setMaximumSize(QtCore.QSize(35, 35))
         self.label_td.setText("")
-        self.label_td.setPixmap(QtGui.QPixmap(":/iconos/icons/light/clock-check.svg"))
+        self.label_td.setPixmap(QtGui.QPixmap(resource_path("res/icons/light/clock-check.svg")))
         self.label_td.setObjectName("label_td")
         self.horizontalLayout_6.addWidget(self.label_td)
         self.tiempo_disponible = QtWidgets.QLabel(self.tiempo_consumido_frame_2)
@@ -229,7 +229,7 @@ class Ui_MainWindow(object):
         self.pushButton_8.setMaximumSize(QtCore.QSize(40, 16777215))
         self.pushButton_8.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap(":/iconos/icons/light/brand-github.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap(resource_path("res/icons/light/brand-github.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_8.setIcon(icon2)
         self.pushButton_8.setIconSize(QtCore.QSize(24, 24))
         self.pushButton_8.setObjectName("pushButton_8")
@@ -251,10 +251,9 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "Conectado a Internet"))
-        self.tiempo_consumido.setText(_translate("MainWindow", "00:00:00"))
-        self.tiempo_disponible.setText(_translate("MainWindow", "00:00:00"))
-        self.boton_cerrar_2.setText(_translate("MainWindow", "Cerrar"))
-        self.label_4.setText(_translate("MainWindow", "TheMrAleX"))
-import icon_rc
+        MainWindow.setWindowTitle(_translate("Loged", "Loged"))
+        self.label.setText(_translate("Loged", "Conectado a Internet"))
+        self.tiempo_consumido.setText(_translate("Loged", "00:00:00"))
+        self.tiempo_disponible.setText(_translate("Loged", "00:00:00"))
+        self.boton_cerrar_2.setText(_translate("Loged", "Cerrar"))
+        self.label_4.setText(_translate("Loged", "TheMrAleX"))

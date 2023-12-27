@@ -9,11 +9,11 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+from ayuda import resource_path
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
+        MainWindow.setObjectName("Login")
         MainWindow.resize(320, 462)
         MainWindow.setMinimumSize(QtCore.QSize(320, 462))
         MainWindow.setMaximumSize(QtCore.QSize(320, 462))
@@ -51,7 +51,7 @@ class Ui_MainWindow(object):
         self.boton_modo.setMaximumSize(QtCore.QSize(40, 16777215))
         self.boton_modo.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/iconos/icons/light/moon.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(resource_path("res/icons/light/moon.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.boton_modo.setIcon(icon)
         self.boton_modo.setIconSize(QtCore.QSize(22, 22))
         self.boton_modo.setObjectName("boton_modo")
@@ -65,7 +65,7 @@ class Ui_MainWindow(object):
         # self.pushButton_4.setMaximumSize(QtCore.QSize(40, 16777215))
         # self.pushButton_4.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap(":/iconos/icons/light/settings-code.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap(resource_path("res/icons/light/settings-code.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         # self.pushButton_4.setIcon(icon1)
         # self.pushButton_4.setIconSize(QtCore.QSize(24, 24))
         # self.pushButton_4.setObjectName("pushButton_4")
@@ -74,7 +74,7 @@ class Ui_MainWindow(object):
         self.boton_minimizar.setMaximumSize(QtCore.QSize(40, 16777215))
         self.boton_minimizar.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap(":/iconos/icons/light/arrows-diagonal-minimize.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap(resource_path("res/icons/light/arrows-diagonal-minimize.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.boton_minimizar.setIcon(icon2)
         self.boton_minimizar.setIconSize(QtCore.QSize(20, 20))
         self.boton_minimizar.setObjectName("boton_minimizar")
@@ -83,7 +83,7 @@ class Ui_MainWindow(object):
         self.boton_cerrar.setMaximumSize(QtCore.QSize(40, 16777215))
         self.boton_cerrar.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap(":/iconos/icons/light/x.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap(resource_path("res/icons/light/x.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.boton_cerrar.setIcon(icon3)
         self.boton_cerrar.setIconSize(QtCore.QSize(20, 20))
         self.boton_cerrar.setObjectName("boton_cerrar")
@@ -103,7 +103,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_2.setObjectName("verticalLayout_2")
         self.label_2 = QtWidgets.QLabel(self.content)
         self.label_2.setText("")
-        self.label_2.setPixmap(QtGui.QPixmap(":/iconos/icons/light/Logo_Etecsa.png"))
+        self.label_2.setPixmap(QtGui.QPixmap(resource_path("res/icons/light/Logo_Etecsa.png")))
         self.label_2.setObjectName("label_2")
         self.verticalLayout_2.addWidget(self.label_2, 0, QtCore.Qt.AlignHCenter|QtCore.Qt.AlignTop)
         self.label_3 = QtWidgets.QLabel(self.content)
@@ -128,7 +128,7 @@ class Ui_MainWindow(object):
         self.view_buttom.setMaximumSize(QtCore.QSize(20, 20))
         self.view_buttom.setText("")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap(":/icons/icons/eye-closed.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap(resource_path("res/icons/eye-closed.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.view_buttom.setIcon(icon4)
         self.view_buttom.setIconSize(QtCore.QSize(22, 22))
         self.view_buttom.setObjectName("view_buttom")
@@ -137,14 +137,14 @@ class Ui_MainWindow(object):
         self.label_5.setMinimumSize(QtCore.QSize(24, 24))
         self.label_5.setMaximumSize(QtCore.QSize(24, 24))
         self.label_5.setText("")
-        self.label_5.setPixmap(QtGui.QPixmap(":/iconos/icons/light/password-user.svg"))
+        self.label_5.setPixmap(QtGui.QPixmap(resource_path("res/icons/light/password-user.svg")))
         self.label_5.setObjectName("label_5")
         self.gridLayout.addWidget(self.label_5, 4, 0, 1, 1)
         self.label_4 = QtWidgets.QLabel(self.frame_4)
         self.label_4.setMinimumSize(QtCore.QSize(24, 24))
         self.label_4.setMaximumSize(QtCore.QSize(24, 24))
         self.label_4.setText("")
-        self.label_4.setPixmap(QtGui.QPixmap(":/iconos/icons/light/user-shield.svg"))
+        self.label_4.setPixmap(QtGui.QPixmap(resource_path("res/icons/light/user-shield.svg")))
         self.label_4.setObjectName("label_4")
         self.gridLayout.addWidget(self.label_4, 0, 0, 1, 1)
         self.frame_6 = QtWidgets.QFrame(self.frame_4)
@@ -194,7 +194,7 @@ class Ui_MainWindow(object):
         self.pushButton_5.setMaximumSize(QtCore.QSize(40, 16777215))
         self.pushButton_5.setText("")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap(":/iconos/icons/light/brand-github.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon5.addPixmap(QtGui.QPixmap(resource_path("res/icons/light/brand-github.svg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_5.setIcon(icon5)
         self.pushButton_5.setIconSize(QtCore.QSize(24, 24))
         self.pushButton_5.setObjectName("pushButton_5")
@@ -217,10 +217,9 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label_3.setText(_translate("MainWindow", "Iniciar sesion"))
-        self.pass_entry.setPlaceholderText(_translate("MainWindow", "*********"))
-        self.user_entry.setPlaceholderText(_translate("MainWindow", "Usuario"))
-        self.boton_iniciar.setText(_translate("MainWindow", "Iniciar"))
-        self.label.setText(_translate("MainWindow", "TheMrAleX"))
-import icon_rc
+        MainWindow.setWindowTitle(_translate("Login", "Login"))
+        self.label_3.setText(_translate("Login", "Iniciar sesion"))
+        self.pass_entry.setPlaceholderText(_translate("Login", "*********"))
+        self.user_entry.setPlaceholderText(_translate("Login", "Usuario"))
+        self.boton_iniciar.setText(_translate("Login", "Iniciar"))
+        self.label.setText(_translate("Login", "TheMrAleX"))
